@@ -1,0 +1,76 @@
+{
+  "name": "@crawlertoll/next",
+  "version": "0.1.0",
+  "description": "Next.js middleware for the AI-crawler economy. One-line install in middleware.ts. Detects AI crawlers, verifies Web Bot Auth, applies RSL 1.0 policy, and issues HTTP 402 with a structured payment offer — at the Vercel Edge.",
+  "license": "Apache-2.0",
+  "author": "Charthouse Ltd",
+  "homepage": "https://crawlertoll.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nhrzxxw9dn-web/crawlertoll-next-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nhrzxxw9dn-web/crawlertoll-next-js/issues"
+  },
+  "keywords": [
+    "next",
+    "nextjs",
+    "next-middleware",
+    "vercel",
+    "vercel-edge",
+    "ai-crawler",
+    "pay-per-crawl",
+    "web-bot-auth",
+    "rsl",
+    "rsl-1.0",
+    "bot-detection",
+    "gptbot",
+    "claudebot",
+    "http-402",
+    "x402",
+    "crawler-toll"
+  ],
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "prepublishOnly": "npm run typecheck && npm test && npm run build"
+  },
+  "peerDependencies": {
+    "next": "^14.0.0 || ^15.0.0"
+  },
+  "dependencies": {
+    "@crawlertoll/core": "^0.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.5",
+    "next": "^15.5.18",
+    "tsup": "^8.3.6",
+    "typescript": "^5.7.3",
+    "vitest": "^3.0.5"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
