@@ -1,16 +1,16 @@
 {
   "name": "@crawlertoll/next",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Next.js middleware for the AI-crawler economy. One-line install in middleware.ts. Detects AI crawlers, verifies Web Bot Auth, applies RSL 1.0 policy, and issues HTTP 402 with a structured payment offer — at the Vercel Edge.",
   "license": "Apache-2.0",
   "author": "Charthouse Ltd",
   "homepage": "https://crawlertoll.com",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nhrzxxw9dn-web/crawlertoll-next-js.git"
+    "url": "git+https://github.com/charthouse-ltd/crawlertoll-next-js.git"
   },
   "bugs": {
-    "url": "https://github.com/nhrzxxw9dn-web/crawlertoll-next-js/issues"
+    "url": "https://github.com/charthouse-ltd/crawlertoll-next-js/issues"
   },
   "keywords": [
     "next",

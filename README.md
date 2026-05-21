@@ -265,7 +265,7 @@ These are stamped on **both** the forwarded request headers (via `NextResponse.n
 Run them:
 
 ```bash
-git clone https://github.com/nhrzxxw9dn-web/crawlertoll-next-js
+git clone https://github.com/charthouse-ltd/crawlertoll-next-js
 cd crawlertoll-next-js
 npm install
 npm test
@@ -289,3 +289,7 @@ If your framework isn't listed, use `@crawlertoll/core`'s `decide()` directly â€
 ## License
 
 [Apache-2.0](./LICENSE). All specs implemented are open standards under their own licenses.
+
+## Trademark
+
+CrawlerTollâ„¢ is a trademark of Charthouse Ltd.

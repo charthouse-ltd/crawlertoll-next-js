@@ -4,6 +4,12 @@ All notable changes to `@crawlertoll/next` are documented here.
 
 The package follows [Semantic Versioning](https://semver.org/) and tracks the `@crawlertoll/core` major version.
 
+## [0.1.1] — 2026-05-21
+
+### Changed
+
+- Repository URL updated after the GitHub org rename `nhrzxxw9dn-web` → `charthouse-ltd` (npm scope unchanged: `@crawlertoll/*`). Metadata-only release; no code changes.
+
 ## [0.1.0] — 2026-05-19
 
 Initial release. Ships alongside `@crawlertoll/core` v0.1.0, `@crawlertoll/express` v0.1.0, `@crawlertoll/hono` v0.1.0, and `@crawlertoll/fastify` v0.1.0.
